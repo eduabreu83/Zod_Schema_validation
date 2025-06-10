@@ -1,0 +1,27 @@
+{
+  "name": "zod_schema_validation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "zod": "node --import=tsx --watch ./src/zod.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduabreu83/Zod_Schema_validation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduabreu83/Zod_Schema_validation/issues"
+  },
+  "homepage": "https://github.com/eduabreu83/Zod_Schema_validation#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "zod": "^3.25.56"
+  }
+}
