@@ -7,7 +7,9 @@ const schema = z.object({
     isActive: z.boolean().optional(),
     });
 
-let data = {
+    type SchemaType = z.infer<typeof schema>;
+
+let data: SchemaType = {
     name: 'John Doe',
     age: 88,
     email: 'john.doe@example.com',
