@@ -54,7 +54,7 @@ server.get('/posts', async (req, res) => {
     }
 
     // Processamento dos posts
-    let totalPosts = result2.data.length;
+    let totalPosts = (await result2).data.length;
     console.log(`Total de posts: ${totalPosts}`);
     res.json({
 
